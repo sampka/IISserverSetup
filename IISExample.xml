@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerList>
+	<Enviroment name="test">
+		<GrpMngdPWgrp>GROUPMANAGEDSERVICEACCOUNTADGROUP-TEST</GrpMngdPWgrp>
+		<DirModifyPermissions>mi\TSItfsservice</DirModifyPermissions>
+		<DirModifyPermissions>mi\Title Source IT Team Build Engineers Admin</DirModifyPermissions>
+		<DirModifyPermissions>Allows Up to Three Groups for permissions</DirModifyPermissions>
+	   <Site name = "ExampleSiteONE">
+		   <path>ExampleSiteONE</path>
+		   <bindings>ExampleSiteONETest</bindings>
+		   <dotnet>4.0</dotnet>
+		   <SrvAcctName>MI\ExampleONEserviceaccountname-TEST</SrvAcctName>
+		   <SrvAcctPass>ExampleOneserviceaccountpassword-TEST</SrvAcctPass>
+		   <GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+		   <WindowsAuth>true</WindowsAuth>
+		   <AnonAuth>true</AnonAuth>
+		   <SubSite name = "ExampleSubSiteONE">
+			<bindings></bindings>
+			<dotnet>4.0</dotnet>
+			<SrvAcctName>MI\ExampleSubSiteONEserviceaccountname-TEST</SrvAcctName>
+			<SrvAcctPass>ExampleSubSiteONEserviceaccountpassword-TEST</SrvAcctPass>
+			<GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+			<WindowsAuth>true</WindowsAuth>
+			<AnonAuth>false</AnonAuth>
+		</SubSite>	  
+		   <SubSite name = "ExampleSubSiteTWO">
+			<bindings></bindings>
+			<dotnet>2.0</dotnet>
+			<SrvAcctName>MI\ExampleSubSiteTWOserviceaccountnamet-TEST</SrvAcctName>
+			<SrvAcctPass>ExampleSubSiteONEserviceaccountpassword-TEST</SrvAcctPass>
+			<GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+			<WindowsAuth>true</WindowsAuth>
+			<AnonAuth>false</AnonAuth>
+		</SubSite>	       	
+	   </Site>
+	   <Site name = "ExampleSiteTWO">
+		   <path>ExampleSiteTWO</path>
+		   <bindings>ExampleSiteTWObeta</bindings>
+		   <dotnet>4.0</dotnet>
+		   <SrvAcctName>MI\ExampleTWOserviceaccountname-BETA</SrvAcctName>
+		   <SrvAcctPass>ExampleTWOserviceaccountpassword-BETA</SrvAcctPass>
+		   <GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+		   <WindowsAuth>true</WindowsAuth>
+		   <AnonAuth>false</AnonAuth>
+	   </Site>
+   </Enviroment>
+   <Enviroment name="beta">
+	   <GrpMngdPWgrp>GROUPMANAGEDSERVICEACCOUNTADGROUP-BETA</GrpMngdPWgrp>
+        	<DirModifyPermissions>mi\TSItfsservice</DirModifyPermissions>
+		<DirModifyPermissions>mi\Title Source IT Team Build Engineers Admin</DirModifyPermissions>
+		<DirModifyPermissions>Allows Up to Three Groups for permissions</DirModifyPermissions>
+	   <Site name = "ExampleSiteONE">
+		   <path>ExampleSiteONE</path>
+		   <bindings>ExampleSiteONEbeta</bindings>
+		   <dotnet>4.0</dotnet>
+		   <SrvAcctName>MI\ExampleONEserviceaccountname-BETA</SrvAcctName>
+		   <SrvAcctPass>ExampleOneserviceaccountpassword-BETA</SrvAcctPass>
+		   <GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+		   <WindowsAuth>true</WindowsAuth>
+		   <AnonAuth>true</AnonAuth>
+		   <SubSite name = "ExampleSubSiteONE">
+			<bindings></bindings>
+			<dotnet>4.0</dotnet>
+			<SrvAcctName>MI\ExampleSubSiteONEserviceaccountname-BETA</SrvAcctName>
+			<SrvAcctPass>ExampleSubSiteONEserviceaccountpassword-BETA</SrvAcctPass>
+			<GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+			<WindowsAuth>true</WindowsAuth>
+			<AnonAuth>false</AnonAuth>
+		</SubSite>	  
+		   <SubSite name = "ExampleSubSiteTWO">
+			<bindings></bindings>
+			<dotnet>2.0</dotnet>
+			<SrvAcctName>MI\ExampleSubSiteTWOserviceaccountnamet-BETA</SrvAcctName>
+			<SrvAcctPass>ExampleSubSiteONEserviceaccountpassword-BETA</SrvAcctPass>
+			<GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+			<WindowsAuth>true</WindowsAuth>
+			<AnonAuth>false</AnonAuth>
+		</SubSite>	       	
+	   </Site>
+	   <Site name = "ExampleSiteTWO">
+		   <path>ExampleSiteTWO</path>
+		   <bindings>ExampleSiteTWObeta</bindings>
+		   <dotnet>4.0</dotnet>
+		   <SrvAcctName>MI\ExampleTWOserviceaccountname-BETA</SrvAcctName>
+		   <SrvAcctPass>ExampleTWOserviceaccountpassword-BETA</SrvAcctPass>
+		   <GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+		   <WindowsAuth>true</WindowsAuth>
+		   <AnonAuth>false</AnonAuth>
+	   </Site>
+   </Enviroment>
+   <Enviroment name="prod">
+	   <GrpMngdPWgrp>GROUPMANAGEDSERVICEACCOUNTADGROUP-PROD</GrpMngdPWgrp>
+	   	<DirModifyPermissions>mi\TSItfsservice</DirModifyPermissions>
+		<DirModifyPermissions>mi\Title Source IT Team Build Engineers Admin</DirModifyPermissions>
+		<DirModifyPermissions>Allows Up to Three Groups for permissions</DirModifyPermissions>
+	   <Site name = "ExampleSiteONE">
+		   <path>ExampleSiteONE</path>
+		   <bindings>ExampleSiteONEProd</bindings>
+		   <dotnet>4.0</dotnet>
+		   <SrvAcctName>MI\ExampleONEserviceaccountname-PROD</SrvAcctName>
+		   <SrvAcctPass>ExampleOneserviceaccountpassword-PROD</SrvAcctPass>
+		   <GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+		   <WindowsAuth>true</WindowsAuth>
+		   <AnonAuth>true</AnonAuth>
+		   <SubSite name = "ExampleSubSiteONE">
+			<bindings></bindings>
+			<dotnet>4.0</dotnet>
+			<SrvAcctName>MI\ExampleSubSiteONEserviceaccountname-PROD</SrvAcctName>
+			<SrvAcctPass>ExampleSubSiteONEserviceaccountpassword-PROD</SrvAcctPass>
+			<GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+			<WindowsAuth>true</WindowsAuth>
+			<AnonAuth>false</AnonAuth>
+		</SubSite>	  
+		   <SubSite name = "ExampleSubSiteTWO">
+			<bindings></bindings>
+			<dotnet>2.0</dotnet>
+			<SrvAcctName>MI\ExampleSubSiteTWOserviceaccountnamet-PROD</SrvAcctName>
+			<SrvAcctPass>ExampleSubSiteONEserviceaccountpassword-PROD</SrvAcctPass>
+			<GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+			<WindowsAuth>true</WindowsAuth>
+			<AnonAuth>false</AnonAuth>
+		</SubSite>	       	
+	   </Site>
+	   <Site name = "ExampleSiteTWO">
+		   <path>ExampleSiteTWO</path>
+		   <bindings>ExampleSiteTWOProd</bindings>
+		   <dotnet>4.0</dotnet>
+		   <SrvAcctName>MI\ExampleTWOserviceaccountname-PROD</SrvAcctName>
+		   <SrvAcctPass>ExampleTWOserviceaccountpassword-PROD</SrvAcctPass>
+		   <GrpMngdSrvAcct>false</GrpMngdSrvAcct>
+		   <WindowsAuth>true</WindowsAuth>
+		   <AnonAuth>false</AnonAuth>
+	   </Site>
+     
+   </Enviroment>
+</ServerList>
